@@ -1,5 +1,5 @@
 {
- "ran_at": "2026-11-12T08:17:28.474Z",
+ "ran_at": "2026-11-12T08:20:11.218Z",
  "sources": [
   {
    "key": "linuxdo",
@@ -52,6 +52,105 @@
   }
  ],
  "items": [
+  {
+   "title": "💰 别再为高价代理买单｜ Proxy001 住宅 IP 低至 $0.55/GB，首单免费试用 + CDK 赠送",
+   "link": "https://www.v2ex.com/t/1256506#reply1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-12T08:00:23.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "大厂前置如何保障使用体验？",
+   "link": "https://www.nodeseek.com/post-1048890-1",
+   "summary": "限速？限IP数量？vless协议？",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:20:01.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "GCP越来越难注册了",
+   "link": "https://www.nodeseek.com/post-1048889-1",
+   "summary": "如题，老号+全新实卡+真实信息也要扣30押金，有的号甚至绑卡也要扣钱，我绑卡扣了200一个月了都没退回来",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:19:57.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "求新加坡、香港、日本等T1大流量VPS推荐",
+   "link": "https://www.nodeseek.com/post-1048888-1",
+   "summary": "香港Hytron1折机是最爽的了。想问问，其他地方大家有推荐的大流量，流量费划算的好鸡推荐吗？T1就行，不需要优化链路，谢谢！",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:19:46.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "【出】总价95¥出Matrix的活动款4837（年付款）。",
+   "link": "https://www.nodeseek.com/post-1048887-1",
+   "summary": "RT，参考https://www.nodeseek.com/post-1041333-1",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:19:20.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "A\\这样真的能有效防蒸吗？",
+   "link": "https://www.nodeseek.com/post-1048886-1",
+   "summary": "感觉基本没用，甚至可能适得其反。",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:19:05.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "[5r出]出一个raksmart的 ntt双isp伪家宽",
+   "link": "https://www.nodeseek.com/post-1048885-1",
+   "summary": "到期时间20261206续费$2.07USDC段是1，被宰种邻居送中了1c1g50g3T流量站内邮箱直接push有意站内信",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:18:52.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "大妈和瓦工是没有三网各自精品吗？",
+   "link": "https://www.nodeseek.com/post-1048884-1",
+   "summary": "我主要是用移动，但是偶尔也需要用到其他两家线路。但是我看了一下是不是都没有三网各自精品？那vmisstri暂时还换不了？",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:18:36.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
+  {
+   "title": "想试试claude了，能否推荐一些帖子教程看看要怎么搞",
+   "link": "https://www.nodeseek.com/post-1048883-1",
+   "summary": "比如网络环境要怎么配置、支付和使用等",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-12T08:18:30.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T08:20:11.218Z",
+   "is_new": true
+  },
   {
    "title": "众安银行lv2拼团， anonaddy.com 域名群组认证免费领实体卡",
    "link": "https://linux.do/t/topic/3161002",
@@ -121,17 +220,6 @@
   {
    "title": "半小时手搓了一个将复杂英文内容转化为简单、容易理解的语言的在线工具网站",
    "link": "https://www.v2ex.com/t/1256507#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-12T08:00:23.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "💰 别再为高价代理买单｜ Proxy001 住宅 IP 低至 $0.55/GB，首单免费试用 + CDK 赠送",
-   "link": "https://www.v2ex.com/t/1256506#reply0",
    "summary": "",
    "category": "其他",
    "source_key": "v2ex",
@@ -328,9 +416,9 @@
    "is_new": true
   },
   {
-   "title": "【+200 收】咸鱼saltyfish   sjc.p1.mini 季付 $23.40 款",
+   "title": "【溢价收】咸鱼saltyfish   sjc.p1.mini 季付",
    "link": "https://www.nodeseek.com/post-1048878-1",
-   "summary": "站内私信，口令付",
+   "summary": "麻烦代价来，不太了解这鸡的行情站内私信，口令付",
    "category": "其他",
    "source_key": "nodeseek",
    "date": "2026-11-12T08:16:11.000Z",
@@ -422,94 +510,6 @@
    "category": "其他",
    "source_key": "nodeseek",
    "date": "2026-11-12T08:12:52.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "【产品建议】NS新增厂商红黑榜区域+行为公示",
-   "link": "https://www.nodeseek.com/post-1048867-1",
-   "summary": "需求分析：新手加入寻找适合自己的VPS拿不准，老手在进行交易的时候虽然熟知，但是有一些商家推出低价套餐还是容易被迷惑。如果有一个红黑榜，可以帮助社区沉淀，但是需要避免商家打广告🪧消除不良记录NS做这个需求的优势：优势：既然我们站有这么多MJJ，这是天然做服务器厂商红黑榜的平台劣势：目前NS做VPS相关很少，可能会",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:12:32.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "为什么NS手机端没有广告，电脑端有？",
-   "link": "https://www.nodeseek.com/post-1048866-1",
-   "summary": "",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:12:25.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "已收到",
-   "link": "https://www.nodeseek.com/post-1048862-1",
-   "summary": "20收一个Raksmart1.99刀的4837最好是论坛邮箱的",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:11:46.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "【抽奖】wap.ac TW EPYC VPS Netflix台湾落地机 求赞",
-   "link": "https://www.nodeseek.com/post-1048861-1",
-   "summary": "摸了两天抽了NS邮箱转移求赞有条件的来点🍗发错板块了开奖链接💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m213.210.*.*[0m[4mhttps://",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:11:08.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "记得前年我还在mjj论坛发贴问，现在改行码农，还来得及吗？没想到现在AI这样。。",
-   "link": "https://www.nodeseek.com/post-1048860-1",
-   "summary": "因为那时候，我朋友几个工资很高，所以想转行。才2年时间，AI就发展成这样了。。我一个门外汉也能搭建网站了，弄小程序了。。。再然后没想到那MJJ论坛也倒闭了，变化太快了。。。",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:11:02.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "如果用护照过Claude的kyc会怎么样",
-   "link": "https://www.nodeseek.com/post-1048859-1",
-   "summary": "RT，想看看大家的情况",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:10:54.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "RakSmart 回复说每天下午 4点补 $3.99/月秒杀款，有大佬抢到的吗",
-   "link": "https://www.nodeseek.com/post-1048858-1",
-   "summary": "RakSmart回复说每天下午4点补$3.99/月秒杀款，有大佬抢到的吗昨天和今天都是4点准时进去还是一直是缺货状态，是真补了吗",
-   "category": "低价优惠",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:10:07.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T08:17:28.474Z",
-   "is_new": true
-  },
-  {
-   "title": "bero 69o是升级89o还是保持现状好",
-   "link": "https://www.nodeseek.com/post-1048857-1",
-   "summary": "89o性价比好像高一点，虽然69o也够了",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-12T08:09:25.000Z",
    "expires_at": null,
    "first_seen": "2026-11-12T08:17:28.474Z",
    "is_new": true
