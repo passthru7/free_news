@@ -184,48 +184,26 @@ function applyData(d) {
 document.getElementById('search').oninput = e=>{ state.search=e.target.value; renderList(); };
 document.getElementById('onlyNew').onchange = e=>{ state.onlyNew=e.target.checked; renderList(); };
 
-// 「立即刷新」= 触发 GitHub 抓取一轮 + 轮询等待新数据
+// 「立即刷新」= 拉取最新数据； GitHub 匿名不能触发抓取，按钮只做重拉
 let refreshing = false;
 document.getElementById('refreshBtn').onclick = async function() {
   if (refreshing) return;
   refreshing = true;
   const btn = document.getElementById('refreshBtn');
   const m = document.getElementById('statusMsg');
-  btn.disabled = true; btn.textContent = '抓取中…';
-  try {
-    const triggered = await triggerFetch();
-    if (triggered) {
-      m.textContent = '已触发抓取，通常 1–2 分钟完成，页面自动更新…';
-      m.className = 'status';
-      const before = state.ran_at;
-      const startedAt = Date.now();
-      const poll = setInterval(async () => {
-        try {
-          const r = await fetch('data.json?t=' + Date.now());
-          if (!r.ok) return;
-          const d = await r.json();
-          if (d.ran_at && d.ran_at !== before) {
-            clearInterval(poll);
-            applyData(d);
-            m.textContent = '';
-            btn.disabled = false; btn.textContent = '立即刷新';
-            refreshing = false;
-          } else if (Date.now() - startedAt > 180000) {
-            clearInterval(poll);
-            m.textContent = '抓取仍在进行中，稍后再点「立即刷新」查看';
-            btn.disabled = false; btn.textContent = '立即刷新';
-            refreshing = false;
-          }
-        } catch(e) {}
-      }, 10000);
-      return;
-    }
-  } catch(e) {}
+  btn.disabled = true; btn.textContent = '刷新中…';
+  const before = state.ran_at;
   await loadData();
-  m.textContent = '已重新加载数据（自动触发出错，仅拉取现有数据）';
-  m.className = 'status err';
   btn.disabled = false; btn.textContent = '立即刷新';
   refreshing = false;
+  if (state.ran_at === before) {
+    m.innerHTML = '数据已是最新。抓取每 2 小时自动进行；想立刻抓一轮？<a href="https://github.com/passthru7/free_news/actions/workflows/fetch.yml" target="_blank" rel="noopener">到仓库 Actions 页点 Run workflow</a>';
+    m.className = 'status';
+  } else {
+    m.textContent = '已加载最新数据';
+    m.className = 'status';
+    setTimeout(()=>{ m.textContent=''; }, 5000);
+  }
 };
 
 (async function init(){ await loadData(); })();
