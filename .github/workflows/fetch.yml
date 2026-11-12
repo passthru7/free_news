@@ -1,0 +1,29 @@
+name: 抓取优惠数据
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # 每 2 小时
+  workflow_dispatch: {}      # 允许手动触发（页面上「立即刷新」的兜底）
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 抓取所有来源
+        run: node scripts/fetch_sources.mjs docs state
+
+      - name: 提交数据
+        run: |
+          git config user.name "deals-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data.json state/history.json
+          git diff --cached --quiet || git commit -m "chore: 更新优惠数据 $(date -u +%m-%d\ %H:%M) UTC"
+          git push

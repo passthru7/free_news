@@ -1,0 +1,320 @@
+{
+ "ran_at": "2026-11-12T03:29:50.618Z",
+ "sources": [
+  {
+   "key": "linuxdo",
+   "name": "LINUX DO 福利羊毛",
+   "ok": false,
+   "count": 0,
+   "error": "fetch failed"
+  },
+  {
+   "key": "v2ex",
+   "name": "V2EX 推广",
+   "ok": false,
+   "count": 0,
+   "error": "fetch failed"
+  },
+  {
+   "key": "epic",
+   "name": "Epic 免费游戏",
+   "ok": true,
+   "count": 0,
+   "error": ""
+  },
+  {
+   "key": "nodeseek",
+   "name": "NodeSeek",
+   "ok": false,
+   "count": 0,
+   "error": "fetch failed"
+  },
+  {
+   "key": "appinn",
+   "name": "小众软件",
+   "ok": true,
+   "count": 10,
+   "error": ""
+  },
+  {
+   "key": "ghxi",
+   "name": "果核剥壳",
+   "ok": true,
+   "count": 10,
+   "error": ""
+  },
+  {
+   "key": "iplaysoft",
+   "name": "异次元软件世界",
+   "ok": true,
+   "count": 30,
+   "error": ""
+  }
+ ],
+ "items": [
+  {
+   "title": "11 款超轻量自托管工具，最低只占 5MB 内存｜OpenStick 新玩法",
+   "link": "https://www.appinn.com/11-lightweight-self-hosted-apps-512mb-ram/",
+   "summary": "如果你有一台只有 512MB 内存的小主机，能用来装什么？ 终于有人干这事了！ 开发者 Laurens Bosscher 花了大约 10 美元（含运费），买来一台只有 512MB 内存、4GB 存储空间 的 OpenStick 小设备，装上 Debian Linux，竟然在上面跑起了广告过滤、AI",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-11T08:49:57.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "苹果新应用 Harbor 曝光：插线连接多台 Mac，一起运行本地大模型",
+   "link": "https://www.appinn.com/apple-harbor-mac-ai-cluster/",
+   "summary": "在 Mac 上运行本地大模型已经不是什么新鲜事了，但如果模型太大，一台 Mac 的内存装不下怎么办？ 苹果似乎准备提供一个更简单的办法：把几台 Mac 用 Thunderbolt 5 连接起来，让它们一起运行 AI 大模型。 近日有 X 用户 @Aaron 爆料消息称，苹果正在开发一款名为 Harb",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-11T08:14:07.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "TVPort – 苹果 Apple TV 4K 原生运行《超级马力欧：奥德赛》",
+   "link": "https://www.appinn.com/tvport-apple-tv/",
+   "summary": "继《塞尔达传说：王国之泪》《塞尔达传说：时之笛》被跨平台移植到 Windows 电脑之后，现在连苹果家的电视盒子 Apple TV 4K，也能运行任天堂 Switch 游戏了！ 这次是《超级马力欧：奥德赛》（Super Mario Odyssey），开发者声称在第三代 Apple TV 4K 上可以",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-11T07:11:15.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "微软为 Mac 推出 Process Explorer：比活动监视器更强大的进程管理工具",
+   "link": "https://www.appinn.com/process-explorer-for-macos/",
+   "summary": "Mac 上的某个程序突然占用大量 CPU，却不知道它在后台干什么？想知道一个软件偷偷连接了哪些服务器，或者某个文件究竟被哪个进程占用？ macOS 自带的「活动监视器」虽然能查看 CPU、内存和进程，但遇到复杂问题时，能提供的信息就有些不够用了。 现在，微软把 Windows 上的一款经典系统工具带",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-11T06:40:36.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "小渔排班宣布永久免费：开发了 8 年的轮班日历，无广告、无订阅",
+   "link": "https://www.appinn.com/xiaoyu-shift-calendar-free/",
+   "summary": "小渔排班是一款为轮班、倒班工作者设计的日历应用，适合护士、医生、制造业等工作时间不规律的同学。最近，开发者回到发现频道，带来了一个好消息：从 2026 年 10 月起，小渔排班永久免费，所有功能免费开放，无广告、无订阅，仅保留自愿支持开发者的选项。 @Appinn 青小蛙翻了一下，小众软件在 201",
+   "category": "会员订阅",
+   "source_key": "appinn",
+   "date": "2026-11-10T14:48:28.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "福利｜复旦「学术版 Codex」双十一积分翻倍！",
+   "link": "https://www.appinn.com/qiewenpaper-1111/",
+   "summary": "程序员被 Codex 彻底改变了。不用一行行敲代码，把需求丢给 AI，它自己写代码、跑测试、修 Bug，最后交付。 那么问题来了：科研人员天天干的活，不也是”配环境、跑实验、复现代码、查文献、写综述、画图”这些体力活吗？ 现在，复旦大学 NLP 团队把这套逻辑搬到了科研上，做",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-10T06:46:27.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "在浏览器里运行《极品飞车·地下狂飙2》支持联机",
+   "link": "https://www.appinn.com/nfsu2-browser-multiplayer/",
+   "summary": "有人将 PC 版游戏本身的源代码，重新编译给 Chrome 与 Firefox 使用，最高支持 120 fps、并且可以与朋友一起在线游戏。 支持手柄、方向盘、触控操作，堪称完美运行啊。 开发者说： 大约 20 年前，我和兄弟一起玩过这款游戏。因为这样，我试着把它移植到浏览器上，让我们能再一起玩。结",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-10T05:47:21.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "双 11 大促！150+ 款正版软件低至 6 折，AdGuard、Typora、PixPin、思源笔记、Mole 等…",
+   "link": "https://www.appinn.com/lizhi-261111/",
+   "summary": "一年一度的正版软件双 11 大促来了！今年的「双 11 软件狂欢节」共有超过 150 款商品参与，到手低至 6 折。 挑一些值得买的推荐给大家： AdGuard AdGuard 是一款非常受欢迎的全平台去广告工具，它通过过滤规则，在 DNS 请求、网络连接和网页内容等层面识别并拦截广告及",
+   "category": "低价优惠",
+   "source_key": "appinn",
+   "date": "2026-11-09T09:16:11.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "Hookshot – 《塞尔达传说：时之笛》重制版已能在 PC 原生运行，无需模拟器",
+   "link": "https://www.appinn.com/hookshot/",
+   "summary": "Hookshot v2.1.0 发布：游戏崩溃修复、手柄陀螺仪支持、5.1 声道音频，以及更新机制的改进，搬运已同步。 11月11日更新，具体内容为： 继《塞尔达传说：王国之泪》之后，又一款塞尔达游戏可以在 Windows 电脑上原生运行了！ 这次是2026年11月5日刚刚发售的 Switch 2",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-09T08:52:41.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "发现频道：10款大家发现的好评软件[2026年第45期]",
+   "link": "https://www.appinn.com/faxian-top10-2645/",
+   "summary": "最近10日，来自小众软件论坛的发现频道的热门排行榜，由系统自动生成，直接列出来： 1️⃣ SnowAir 链接：https://meta.appinn.net/t/95048 适用平台：Windows 一句话描述：Windows 上的截图工具很多，但大多要么体积不小、要么装一堆服务，要么把 OCR、",
+   "category": "其他",
+   "source_key": "appinn",
+   "date": "2026-11-09T01:00:34.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "TechSmith Camtasia v2027.0.0.21317 特别版",
+   "link": "https://www.ghxi.com/camtasia2027.html",
+   "summary": "Camtasia 2027 是 TechSmith 公司于 2026 年 11 月 10 日发布的最新一代\"屏幕录制 + 视频剪辑\"一体化软件，定位是让非专业用户在同一个工作流里完...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T03:22:09.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "谷歌正式发布 A2UI 1.0 稳定版：智能体可直接回复 UI 界面",
+   "link": "https://www.ghxi.com/ai202611122.html",
+   "summary": "11 月 12 日消息，A2UI 是谷歌在 2025 年底公布的一份生成式 UI 开放协议，让智能体不仅能回复用户文字，还能直接回复 UI 界面内容。 今日，谷歌正式发布了 A2U...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T02:55:27.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "Microsoft Activation Scripts v3.14 官方版/汉化版",
+   "link": "https://www.ghxi.com/mas.html",
+   "summary": "Microsoft Activation Scripts（简称MAS），具备HWID/KMS38/在线KMS激活Microsoft，这款批处理版KMS激活脚本最大特色是代码开源，小...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T02:44:55.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "StartAllBack(开始菜单增强工具) v3.9.28.5428 修改版",
+   "link": "https://www.ghxi.com/startallback.html",
+   "summary": "在Windows 11上使用的开始菜单增强工具 软件功能 恢复经典样式的Windows 7主题风格开始菜单 恢复和改进开始菜单样式 个性化任务栏资源管理器等功能。 界面截图 更新日...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T02:22:14.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "英伟达董事会聘请外部机构物色新 CEO 候选人，并考虑任命临时 CEO",
+   "link": "https://www.ghxi.com/new202611121.html",
+   "summary": "11 月 12 日消息，彭博社刚刚报道称，英伟达董事会正聘请外部专业机构物色新的 CEO 候选人，并考虑在寻找正式继任者期间任命临时 CEO。 在此之前，多个美媒报道称，英伟达董事...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T02:09:48.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "Google Chrome v157.0.8103.79 便携增强版",
+   "link": "https://www.ghxi.com/chrome.html",
+   "summary": "谷歌浏览器，是一个由Google（谷歌）公司开发的开放原始码网页浏览器。该浏览器是基于其他开放原始码软件所撰写，包括WebKit和Mozilla，目标是提升稳定性、速度和安全性，并...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T01:52:21.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "Google Chrome v157.0.8103.79 正式版 离线安装包",
+   "link": "https://www.ghxi.com/pcchrome.html",
+   "summary": "Google Chrome是一款由Google公司开发的网页浏览器，该浏览器基于其他开源软件撰写，包括WebKit，目标是提升稳定性、速度和安全性，并创造出简单且有效率的使用者界面...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T01:34:53.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "谷歌推出 Gemini Decisions API：由全新 Gemini Decision 1 模型驱动，单次处理可完成 1000 项多模态判断",
+   "link": "https://www.ghxi.com/ai202611121.html",
+   "summary": "11 月 12 日消息，谷歌昨日宣布推出 Gemini Decisions API 快速多模态决策服务，由全新 Gemini Decision 1 模型驱动。该 API 可在 1 ...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T01:34:26.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "Office Tool Plus v11.9.15.0 -office安装激活一条龙",
+   "link": "https://www.ghxi.com/officetoolplus.html",
+   "summary": "Office Tool Plus是一款相当牛逼的office安装工具，并且安装完了顺带激活，也可以很快捷的卸载office清除激活信息等等。下载最新的office2016免去那么多...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T01:23:01.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "巨应壁纸 v2.6.8.2",
+   "link": "https://www.ghxi.com/jybz2.html",
+   "summary": "巨应壁纸是一款拥有超多精美壁纸和主题桌面的软件，涵盖动漫、风景、影视以及像素等诸多类型，只需要简单几步，就能够轻松的把壁纸保存到电脑上进行使用。软件还为大家提供了视频和图片两大不同...",
+   "category": "其他",
+   "source_key": "ghxi",
+   "date": "2026-11-12T01:16:34.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
+   "link": "https://www.iplaysoft.com/1111.html",
+   "summary": "又是一年一度「 双十一大促 」了！无论是京东、天猫，还是「 腾讯云 、 阿里云 」等商家都会发力，这对买买党来说肯定特别幸福了。不过对于咱们而言，软件、 游戏 的促销同样值得关注！ 异次元特意收集了最近 双 11 精选软件/会员 等促销活动， 力度诚意都不错。包括 百度网盘 、 哔哩哔哩 、 WPS会员 、 腾讯视频 、 爱奇艺 、 网易云 ；还有正版软件打折比如 数码荔枝 、 ApsGo软购 等",
+   "category": "会员订阅",
+   "source_key": "iplaysoft",
+   "date": "2026-11-10T21:00:48.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "彻底破了！塞尔达传说：王国之泪 / 马力欧原生移植 PC 电脑版 (免模拟器直接运行)",
+   "link": "https://www.iplaysoft.com/totk-recomp.html",
+   "summary": "最近主机游戏圈发生了一场“超级大地震”，谁能想到，任天堂 (Nintendo) 那些独占的 Switch 游戏 大作，居然在短时间内被 AI 陆续“强制移植”成能原生运行的 PC 电脑版了？！ 过去《塞尔达传说：王国之泪》或《超级马力欧：奥德赛》只能 买 Switch 主机 或下载 Ryujinx 、 Yuzu 等 模拟器 ，性能效果很一般。而最近开源社区利用 AI 直接将游戏逆向解构，并重新编译",
+   "category": "其他",
+   "source_key": "iplaysoft",
+   "date": "2026-11-08T17:38:43.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "绝对值！夸克网盘 SVIP 会员优惠年卡打折！6TB 大空间 / 不限速 / 离线下载",
+   "link": "https://www.iplaysoft.com/p/quark-svip",
+   "summary": "如今，网盘正在逐渐成为我们日常工作和娱乐 (转存 + 在线看电影看视频) 的重要工具。无论是办公文件、手机电脑的备份，还是图片和视频，都可以通过云端进行存储和转移。 超级会员 SVIP 年卡限时打折优惠： 除了百度网盘、阿里云盘、迅雷云盘之外，最近还有一款网盘“异军突起”——夸克网盘…… 「 前往查看原文.... 」 异次元首页 &nbsp;&nbsp;|&nbsp;&nbsp; 微信公众号 &n",
+   "category": "会员订阅",
+   "source_key": "iplaysoft",
+   "date": "2026-11-07T07:01:37.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  },
+  {
+   "title": "刚需必入！苹果 iCloud+ 会员订阅 85 折优惠年卡 (2TB 空间/立省 123 元)",
+   "link": "https://www.iplaysoft.com/p/icloud",
+   "summary": "对于使用 iPhone 或 Mac 的苹果用户来说，iCloud 云存储空间已经是日常必备刚需了。无论是拍照/录视频、同步文档/通讯录/备忘录，或是备份相册/备份手机，iCloud 会员都不可划缺！ 但免费 5GB 根本不够用，大家一般都需要开通 200GB 或 2TB 档位。之前为省钱，很多人会切换到低价区订阅 iCloud (比如土耳其…… 「 前往查看原文.... 」 异次元首页 &nbsp",
+   "category": "会员订阅",
+   "source_key": "iplaysoft",
+   "date": "2026-11-06T17:06:44.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-12T03:29:50.618Z",
+   "is_new": true
+  }
+ ]
+}

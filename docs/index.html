@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>每日优惠情报</title>
+<style>
+  :root { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #fafafa; color: #09090b; font-size: 14px; line-height: 1.5; -webkit-font-smoothing: antialiased; }
+  .container { max-width: 640px; margin: 0 auto; padding: 16px; padding-bottom: 60px; }
+  h1 { font-size: 20px; font-weight: 600; letter-spacing: -0.02em; margin-bottom: 4px; }
+  .sub { color: #71717a; font-size: 12px; margin-bottom: 14px; }
+  .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; }
+  .stat { background: #fff; border: 1px solid #e4e4e7; border-radius: 10px; padding: 8px 12px; font-size: 12px; color: #71717a; }
+  .stat b { display: block; font-size: 16px; color: #09090b; font-weight: 600; letter-spacing: -0.02em; }
+  .src-errors { color: #dc2626; font-size: 12px; margin-bottom: 10px; }
+  .src-errors div { margin-bottom: 2px; }
+  .search { width: 100%; padding: 9px 12px; border: 1px solid #e4e4e7; border-radius: 8px; font-size: 14px; background: #fff; outline: none; margin-bottom: 10px; }
+  .search:focus { border-color: #09090b; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 8px; }
+  .chip { padding: 5px 11px; border: 1px solid #e4e4e7; border-radius: 9999px; background: #fff; font-size: 12px; cursor: pointer; color: #09090b; }
+  .chip.on { background: #09090b; color: #fff; border-color: #09090b; }
+  .switch-row { display: flex; align-items: center; gap: 8px; font-size: 13px; margin-bottom: 14px; color: #52525b; cursor: pointer; user-select: none; }
+  .card { background: #fff; border: 1px solid #e4e4e7; border-radius: 12px; box-shadow: 0 1px 2px rgba(0,0,0,0.04); padding: 14px; margin-bottom: 10px; transition: box-shadow .15s; }
+  .card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+  .card.claimed { opacity: 0.5; }
+  .card h3 { font-size: 15px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 4px; }
+  .card .summary { color: #71717a; font-size: 13px; margin-bottom: 8px; }
+  .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .badge { font-size: 11px; padding: 2px 8px; border-radius: 9999px; }
+  .badge.secondary { background: #f4f4f5; color: #3f3f46; }
+  .badge.outline { border: 1px solid #e4e4e7; color: #52525b; background: #fff; }
+  .badge.new { background: #09090b; color: #fff; }
+  .badge.expiring { background: #fef2f2; color: #dc2626; border: 1px solid #fecaca; }
+  .badge.deadline { background: #fff; border: 1px solid #e4e4e7; color: #52525b; }
+  .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+  .btn-go { background: #09090b; color: #fff; border: none; border-radius: 8px; padding: 7px 14px; font-size: 13px; font-weight: 500; cursor: pointer; text-decoration: none; display: inline-block; }
+  .btn-sm { background: #fff; border: 1px solid #e4e4e7; color: #09090b; border-radius: 8px; padding: 6px 12px; font-size: 12px; cursor: pointer; }
+  .btn-sm.on { background: #09090b; color: #fff; border-color: #09090b; }
+  .empty { text-align: center; color: #71717a; padding: 40px 0; font-size: 13px; }
+  .status { font-size: 12px; color: #71717a; padding: 8px 0; }
+  .status.err { color: #dc2626; }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>每日优惠情报</h1>
+  <div class="sub" id="updated">加载中…</div>
+  <div class="stats" id="stats"></div>
+  <div class="src-errors" id="srcErrors"></div>
+  <div class="search-wrap"><input class="search" id="search" type="search" placeholder="搜索标题…"></div>
+  <div class="chips" id="sourceChips"></div>
+  <div class="chips" id="categoryChips"></div>
+  <label class="switch-row"><input type="checkbox" id="onlyNew"> 只看本轮新增</label>
+  <div id="list"><div class="empty">加载中…</div></div>
+  <div class="status" id="statusMsg"></div>
+</div>
+<script>
+const CATEGORIES = ['全部','免费白嫖','限免','低价优惠','会员订阅','游戏','其他','我的收藏'];
+const state = { sources: [], items: [], search:'', source:'', category:'全部', onlyNew:false };
+// 收藏/已领保存在浏览器本地
+let userState = {};
+try { userState = JSON.parse(localStorage.getItem('deals_user_state') || '{}'); } catch(e) { userState = {}; }
+function saveUserState(){ try { localStorage.setItem('deals_user_state', JSON.stringify(userState)); } catch(e) {} }
+
+function fmtDate(s){ if(!s) return ''; try{ const d=new Date(s); return `${d.getMonth()+1}月${d.getDate()}日`; }catch(e){ return ''; } }
+function isExpiring(s){ if(!s) return false; const t=new Date(s).getTime(); return t - Date.now() < 48*3600*1000 && t > Date.now(); }
+function isExpired(s){ if(!s) return false; return new Date(s).getTime() <= Date.now(); }
+function isNew(it){ return !!it.is_new; }
+function escapeHtml(s){ return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function sourceName(k){ const s=state.sources.find(s=>s.key===k); return s?s.name:k; }
+
+function renderStats() {
+  const srcOk = state.sources.filter(s=>s.ok).length;
+  const fresh = state.items.filter(isNew).length;
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><b>${state.items.length}</b>在架条目</div>
+    <div class="stat"><b>${srcOk}/${state.sources.length}</b>来源正常</div>
+    <div class="stat"><b>${fresh}</b>本轮新增</div>`;
+  const errs = state.sources.filter(s=>!s.ok);
+  document.getElementById('srcErrors').innerHTML = errs.map(s=>`<div>⚠ ${escapeHtml(s.name)} 未能抓取：${escapeHtml(s.error||'未知原因')}，将在下一轮重试</div>`).join('');
+}
+
+function renderChips() {
+  const sc = document.getElementById('sourceChips');
+  const cnt = {};
+  state.items.forEach(i=>{ cnt[i.source_key]=(cnt[i.source_key]||0)+1; });
+  const names = {}; state.sources.forEach(s=>names[s.key]=s.name);
+  sc.innerHTML = `<span class="chip ${state.source===''?'on':''}" data-src="">全部来源</span>` +
+    Object.keys(names).map(k=>`<span class="chip ${state.source===k?'on':''}" data-src="${k}">${escapeHtml(names[k])} ${cnt[k]||0}</span>`).join('');
+  sc.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{ state.source=c.dataset.src; renderChips(); renderList(); });
+
+  const cc = document.getElementById('categoryChips');
+  cc.innerHTML = CATEGORIES.map(c=>`<span class="chip ${state.category===c?'on':''}" data-cat="${escapeHtml(c)}">${escapeHtml(c)}</span>`).join('');
+  cc.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{ state.category=c.dataset.cat; renderChips(); renderList(); });
+}
+
+function renderList() {
+  const el = document.getElementById('list');
+  const q = state.search.trim().toLowerCase();
+  let list = state.items.filter(it=>{
+    if (q && !it.title.toLowerCase().includes(q)) return false;
+    if (state.source && it.source_key !== state.source) return false;
+    if (state.category === '我的收藏') { if (!userState[it.link]?.fav) return false; }
+    else if (state.category !== '全部' && it.category !== state.category) return false;
+    if (state.onlyNew && !isNew(it)) return false;
+    return true;
+  });
+  // 已领沉底
+  list.sort((a,b)=>(userState[a.link]?.claimed?1:0)-(userState[b.link]?.claimed?1:0));
+  if (!list.length) { el.innerHTML = '<div class="empty">没有符合条件的条目</div>'; return; }
+  el.innerHTML = list.map(it=>{
+    const st = userState[it.link] || {};
+    const expBadge = it.expires_at
+      ? (isExpired(it.expires_at) ? '<span class="badge expiring">已到期</span>'
+        : `<span class="badge ${isExpiring(it.expires_at)?'expiring':'deadline'}">到期 ${fmtDate(it.expires_at)}</span>`) : '';
+    return `<div class="card ${st.claimed?'claimed':''}">
+      <h3>${escapeHtml(it.title)}</h3>
+      ${it.summary?`<div class="summary">${escapeHtml(it.summary)}</div>`:''}
+      <div class="badges">
+        ${isNew(it)?'<span class="badge new">本轮新增</span>':''}
+        <span class="badge secondary">${escapeHtml(it.category||'其他')}</span>
+        <span class="badge outline">${escapeHtml(sourceName(it.source_key))}</span>
+        ${expBadge}
+      </div>
+      <div class="actions">
+        <a class="btn-go" href="${escapeHtml(it.link)}" target="_blank" rel="noopener">去领取</a>
+        <button class="btn-sm ${st.claimed?'on':''}" data-link="${escapeHtml(it.link)}" data-field="claimed">${st.claimed?'已领 ✓':'标记已领'}</button>
+        <button class="btn-sm ${st.fav?'on':''}" data-link="${escapeHtml(it.link)}" data-field="fav">${st.fav?'已收藏 ★':'收藏'}</button>
+      </div>
+    </div>`;
+  }).join('');
+  el.querySelectorAll('button[data-link]').forEach(b=>b.onclick=()=>{
+    const link=b.dataset.link, field=b.dataset.field;
+    userState[link] = userState[link] || {};
+    userState[link][field] = !userState[link][field];
+    saveUserState(); renderList();
+  });
+}
+
+async function loadData() {
+  const el = document.getElementById('list');
+  const m = document.getElementById('statusMsg');
+  const btn = document.getElementById('refreshBtn');
+  try {
+    // 加时间戳防缓存
+    const r = await fetch('data.json?t=' + Date.now());
+    if (!r.ok) throw new Error('HTTP '+r.status);
+    const d = await r.json();
+    state.sources = d.sources || [];
+    state.items = d.items || [];
+    if (d.ran_at) {
+      const t = new Date(d.ran_at);
+      document.getElementById('updated').textContent = `数据更新于 ${t.getMonth()+1}月${t.getDate()}日 ${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')}（每 2 小时自动抓取）`;
+    }
+    renderStats(); renderChips();
+    if (!state.items.length) el.innerHTML = '<div class="empty">暂无数据，等下一轮抓取</div>';
+    else renderList();
+    m.textContent = '';
+  } catch(e) {
+    el.innerHTML = '<div class="empty">数据加载失败：'+escapeHtml(e.message)+'</div>';
+    document.getElementById('updated').textContent = '数据加载失败';
+  }
+}
+
+document.getElementById('search').oninput = e=>{ state.search=e.target.value; renderList(); };
+document.getElementById('onlyNew').onchange = e=>{ state.onlyNew=e.target.checked; renderList(); };
+// 「立即刷新」= 重新拉取最新 data.json
+document.querySelector('.search-wrap')?.insertAdjacentHTML('afterend','<div class="toolbar"><button class="btn-primary" id="refreshBtn">立即刷新</button></div>');
+document.getElementById('refreshBtn').onclick = loadData;
+
+(async function init(){ await loadData(); })();
+</script>
+</body>
+</html>
