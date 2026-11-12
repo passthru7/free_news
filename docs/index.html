@@ -50,6 +50,7 @@
   <div class="stats" id="stats"></div>
   <div class="src-errors" id="srcErrors"></div>
   <div class="search-wrap"><input class="search" id="search" type="search" placeholder="搜索标题…"></div>
+  <div class="toolbar"><button class="btn-primary" id="refreshBtn">立即刷新</button></div>
   <div class="chips" id="sourceChips"></div>
   <div class="chips" id="categoryChips"></div>
   <label class="switch-row"><input type="checkbox" id="onlyNew"> 只看本轮新增</label>
@@ -139,24 +140,26 @@ function renderList() {
   });
 }
 
+const GITHUB_REPO = 'passthru7/free_news';
+// 前端直接触发 GitHub Actions 抓取（无需后端）
+async function triggerFetch() {
+  const r = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/fetch.yml/dispatches`, {
+    method: 'POST',
+    headers: { 'Accept': 'application/vnd.github+json' },
+    body: JSON.stringify({ ref: 'main' }),
+  });
+  return r.status === 204;
+}
+
 async function loadData() {
   const el = document.getElementById('list');
   const m = document.getElementById('statusMsg');
-  const btn = document.getElementById('refreshBtn');
   try {
     // 加时间戳防缓存
     const r = await fetch('data.json?t=' + Date.now());
     if (!r.ok) throw new Error('HTTP '+r.status);
     const d = await r.json();
-    state.sources = d.sources || [];
-    state.items = d.items || [];
-    if (d.ran_at) {
-      const t = new Date(d.ran_at);
-      document.getElementById('updated').textContent = `数据更新于 ${t.getMonth()+1}月${t.getDate()}日 ${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')}（每 2 小时自动抓取）`;
-    }
-    renderStats(); renderChips();
-    if (!state.items.length) el.innerHTML = '<div class="empty">暂无数据，等下一轮抓取</div>';
-    else renderList();
+    applyData(d);
     m.textContent = '';
   } catch(e) {
     el.innerHTML = '<div class="empty">数据加载失败：'+escapeHtml(e.message)+'</div>';
@@ -164,11 +167,66 @@ async function loadData() {
   }
 }
 
+function applyData(d) {
+  const el = document.getElementById('list');
+  state.sources = d.sources || [];
+  state.items = d.items || [];
+  state.ran_at = d.ran_at || null;
+  if (d.ran_at) {
+    const t = new Date(d.ran_at);
+    document.getElementById('updated').textContent = `数据更新于 ${t.getMonth()+1}月${t.getDate()}日 ${String(t.getHours()).padStart(2,'0')}:${String(t.getMinutes()).padStart(2,'0')}（每 2 小时自动抓取）`;
+  }
+  renderStats(); renderChips();
+  if (!state.items.length) el.innerHTML = '<div class="empty">暂无数据，等下一轮抓取</div>';
+  else renderList();
+}
+
 document.getElementById('search').oninput = e=>{ state.search=e.target.value; renderList(); };
 document.getElementById('onlyNew').onchange = e=>{ state.onlyNew=e.target.checked; renderList(); };
-// 「立即刷新」= 重新拉取最新 data.json
-document.querySelector('.search-wrap')?.insertAdjacentHTML('afterend','<div class="toolbar"><button class="btn-primary" id="refreshBtn">立即刷新</button></div>');
-document.getElementById('refreshBtn').onclick = loadData;
+
+// 「立即刷新」= 触发 GitHub 抓取一轮 + 轮询等待新数据
+let refreshing = false;
+document.getElementById('refreshBtn').onclick = async function() {
+  if (refreshing) return;
+  refreshing = true;
+  const btn = document.getElementById('refreshBtn');
+  const m = document.getElementById('statusMsg');
+  btn.disabled = true; btn.textContent = '抓取中…';
+  try {
+    const triggered = await triggerFetch();
+    if (triggered) {
+      m.textContent = '已触发抓取，通常 1–2 分钟完成，页面自动更新…';
+      m.className = 'status';
+      const before = state.ran_at;
+      const startedAt = Date.now();
+      const poll = setInterval(async () => {
+        try {
+          const r = await fetch('data.json?t=' + Date.now());
+          if (!r.ok) return;
+          const d = await r.json();
+          if (d.ran_at && d.ran_at !== before) {
+            clearInterval(poll);
+            applyData(d);
+            m.textContent = '';
+            btn.disabled = false; btn.textContent = '立即刷新';
+            refreshing = false;
+          } else if (Date.now() - startedAt > 180000) {
+            clearInterval(poll);
+            m.textContent = '抓取仍在进行中，稍后再点「立即刷新」查看';
+            btn.disabled = false; btn.textContent = '立即刷新';
+            refreshing = false;
+          }
+        } catch(e) {}
+      }, 10000);
+      return;
+    }
+  } catch(e) {}
+  await loadData();
+  m.textContent = '已重新加载数据（自动触发出错，仅拉取现有数据）';
+  m.className = 'status err';
+  btn.disabled = false; btn.textContent = '立即刷新';
+  refreshing = false;
+};
 
 (async function init(){ await loadData(); })();
 </script>
