@@ -1,11 +1,11 @@
 {
- "ran_at": "2026-11-17T20:40:31.124Z",
+ "ran_at": "2026-11-18T03:28:34.856Z",
  "sources": [
   {
    "key": "linuxdo",
    "name": "LINUX DO 福利羊毛",
    "ok": true,
-   "count": 24,
+   "count": 25,
    "error": ""
   },
   {
@@ -53,6 +53,589 @@
  ],
  "items": [
   {
+   "title": "【富可敌国】VelaMost 取消订阅只剩余额充值，VIP制度代替订阅，权益更多！首充重置无缝衔接首充翻倍！注册送$2 回帖送 $5,进群再 +$2",
+   "link": "https://linux.do/t/topic/3195569",
+   "summary": "",
+   "category": "会员订阅",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【富可敌国】SoleAPI｜GPT-6.2系列模型上线｜满血不降智｜新人注册送 $5，回帖加群再送 $5",
+   "link": "https://linux.do/t/topic/3195559",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "纯净ip一个",
+   "link": "https://linux.do/t/topic/3195497",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "在 x上看到可以 领一个月 google utra",
+   "link": "https://linux.do/t/topic/3195420",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "gemini ultra小号上车一年",
+   "link": "https://linux.do/t/topic/3195372",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "快跑AI GPT-6.2 全系列模型 低至008倍率 已上架 注册送10$",
+   "link": "https://linux.do/t/topic/3195166",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "挪瓦咖啡1分钱，调查表随意",
+   "link": "https://linux.do/t/topic/3195164",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "薅到4个 Gemini 20x一个月 我自己反重力用不了 送一家庭共享 你们来试试 发邮箱",
+   "link": "https://linux.do/t/topic/3195117",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "手里的0刀卡在我的场景用不了，送给你们用",
+   "link": "https://linux.do/t/topic/3194977",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "农业银行 0.1买6元福彩",
+   "link": "https://linux.do/t/topic/3194936",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【富可敌国】 AllRouter：GPT / Claude / Gemini API 中转，主打不降智 API 渠道，注册留 UID 送 5 美元额度，claude max 0.25 倍，GPT 号池0.053倍起",
+   "link": "https://linux.do/t/topic/3194780",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【CodeRelay中转站】稳定为本，诚意定价 。已更新 gpt-6.2-astra gpt-6.2-sol 新人送6刀额度！",
+   "link": "https://linux.do/t/topic/3194696",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【MoonUp API】GPT满血高缓不降智 0.25x 倍率已上线gpt-6.2-sol gpt-6.2-astra，透明号池，95缓存，纯堆号，无科技，全模型不降智 | 福利中心上线 | 企业级稳定 | 新用户进群回帖送 5 刀，反馈再送 3 刀",
+   "link": "https://linux.do/t/topic/3194658",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "QQ音乐会员 3天*3",
+   "link": "https://linux.do/t/topic/3194597",
+   "summary": "",
+   "category": "会员订阅",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【NewCodex中转站】低调的定价，高调的品质，是对消费者最大的尊重。已更新 gpt-6.2-astra gpt-6.2-sol",
+   "link": "https://linux.do/t/topic/3194542",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "meshy 创作活动可领多样福利，manus一个月会员",
+   "link": "https://linux.do/t/topic/3194494",
+   "summary": "",
+   "category": "会员订阅",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【NewCodex中转站】低调的定价，高调的品质，这是对消费者最大的尊重。已更新 gpt-6.2-astra gpt-6.2-sol",
+   "link": "https://linux.do/t/topic/3194483",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "能蹬 5 个小时，ultra 也就结束了；确实是 0 元体验卡",
+   "link": "https://linux.do/t/topic/3194233",
+   "summary": "",
+   "category": "其他",
+   "source_key": "linuxdo",
+   "date": null,
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "无套路不烧心 S 级中转站 跃点 API 上线 GPT‑6.2 Sol 和 Astra，回帖送 $5 站内体验额度",
+   "link": "https://www.v2ex.com/t/1257921#reply2",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-18T02:46:24.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "gpt-6.2-astra 6.2sol 官方正式版上线，价络便宜 60%性能直逼 fb5.2,倍率 0.15，发 30 个兑换码欢迎各 v 佬来偿。",
+   "link": "https://www.v2ex.com/t/1257917#reply3",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-18T02:36:29.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "看到很多兄弟下载使用了 MV2 这个 V2EX 客户端，非常感慨，再送吗",
+   "link": "https://www.v2ex.com/t/1257891#reply14",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-18T01:44:07.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "GPT-6.2 Astra 上线,欢迎友友来这里为自己账号订阅❤",
+   "link": "https://www.v2ex.com/t/1257875#reply4",
+   "summary": "",
+   "category": "会员订阅",
+   "source_key": "v2ex",
+   "date": "2026-11-18T00:41:21.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "Codex 自建站｜6.2 全线路上线",
+   "link": "https://www.v2ex.com/t/1257869#reply0",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T23:26:30.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "做了个把照片生成「弯臂比心」短视频的小工具，欢迎拍砖",
+   "link": "https://www.v2ex.com/t/1257867#reply0",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T22:31:45.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "[macmini.ca] 加拿大 Mac mini 托管与租赁",
+   "link": "https://www.v2ex.com/t/1257858#reply1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T17:57:20.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "Claude 门户 Portal KYC 代验证",
+   "link": "https://www.v2ex.com/t/1257815#reply11",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T13:49:55.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "我女朋友开始卖微瑕茶具了！",
+   "link": "https://www.v2ex.com/t/1257810#reply3",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T12:55:44.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "一年一更，我家的赣南脐橙 2026 版上线了",
+   "link": "https://www.v2ex.com/t/1257699#reply30",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T06:42:00.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "长期出 Claude 成品号 和 KYC",
+   "link": "https://www.v2ex.com/t/1257633#reply71",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T03:10:21.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "[Genius-AI 中转]新老用户们来领电子鸡蛋了，评论区留邮箱，送$5 体验额度",
+   "link": "https://www.v2ex.com/t/1257605#reply45",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T02:01:25.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "ChatGPT Plus 充值，125",
+   "link": "https://www.v2ex.com/t/1257590#reply2",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T01:34:18.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "熊市中就开个银河免 5 定投纳指或者红利低波 ETF 吧，股票也有免 5 的。",
+   "link": "https://www.v2ex.com/t/1257573#reply110",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T00:45:24.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "[台灣站長不跑路] 不擔心封號，高穩定 Claude 中轉，評論送 5 刀（也有 Grok、GPT）",
+   "link": "https://www.v2ex.com/t/1257569#reply211",
+   "summary": "",
+   "category": "其他",
+   "source_key": "v2ex",
+   "date": "2026-11-17T00:26:01.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "想听听大家的意见：一家新的 VPS/服务器商家，你最看重什么？",
+   "link": "https://www.nodeseek.com/post-1062377-1",
+   "summary": "大家好，我们是VPSDC团队，刚来NodeSeek，先跟各位MJJ打个招呼👋我们的官网正在重新改版，趁这个机会想真诚听听大家的想法，而不是关起门来自己做。想问问大家：选商家时你最看重什么？价格、线路、稳定性、售后、还是商家的资历？什么样的配置和价位最吸引你？小鸡、大内存、大硬盘、独服？月付还是年付？欧洲、美国的机",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:28:22.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "银行积存金813了",
+   "link": "https://www.nodeseek.com/post-1062376-1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:28:16.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "大量收kimipro国模，带价来",
+   "link": "https://www.nodeseek.com/post-1062375-1",
+   "summary": "求KimiK3.1Pro官方Key月承诺500万",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:28:04.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "+600收 ccs-6700k 149刀年付LA独服",
+   "link": "https://www.nodeseek.com/post-1062374-1",
+   "summary": "要求32G硬盘1T以上原油包中介或者卖家出push",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:28:03.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "昨晚买了 sixtynet 21刀的Wave Broadband 要不要留？",
+   "link": "https://www.nodeseek.com/post-1062372-1",
+   "summary": "多个渠道测出来，都有点商业带宽属性，这个我有点犹豫要不要留。",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:27:50.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "Raksmart黑五页面",
+   "link": "https://www.nodeseek.com/post-1062371-1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:27:27.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "国内bgp有啥靠谱的商家？",
+   "link": "https://www.nodeseek.com/post-1062370-1",
+   "summary": "rt",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:26:48.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "关于raksmart的一点问题求教",
+   "link": "https://www.nodeseek.com/post-1062369-1",
+   "summary": "买了个3.99的raksmart号，但没有资格买2刀isp了所以想问下raksmart是否支持push，价格呢",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:26:40.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "黑五是什么时候开始啊，想买个us的落地机",
+   "link": "https://www.nodeseek.com/post-1062368-1",
+   "summary": "什么时候开始黑五啊，还没参加过，要买个来",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:26:37.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "你们反重力还能用吗 为什么我一直卡Working",
+   "link": "https://www.nodeseek.com/post-1062366-1",
+   "summary": "RT到底是梯子节点问题还是谷歌算力不足哦",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:26:19.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【收】panstar sg lite nano 2.09月付",
+   "link": "https://www.nodeseek.com/post-1062365-1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:25:39.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "Google Antigravity 反重力福利挺多",
+   "link": "https://www.nodeseek.com/post-1062364-1",
+   "summary": "Pro送一大堆订阅Opus5.5也有现在手上没有要写的项目等Carbon下放Pro了，再订阅个玩玩给我Carbon!!!!!",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:25:39.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【人找车】求一个 Google AI Ultra 2人精品小车席位，长期稳定自用",
+   "link": "https://www.nodeseek.com/post-1062363-1",
+   "summary": "求一个GoogleAIUltra2人家庭组（车主+1）的空余席位，图个清静省心、额度充裕。纯个人日常高频自用（主要用来写代码、跑模型实验），长期稳定，绝不中途跳车。",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:24:55.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "muse等待区，验卡区教程，百分之七十的概率过验证,暂时不帮别人注册了，找到工作了",
+   "link": "https://www.nodeseek.com/post-1062362-1",
+   "summary": "第一步：打开你的万人骑机场，随机打开一个节点第二部：打开muse输入你注册的邮箱第三步：填写你的年龄，最佳年龄在80-90之间，实操300多+邮箱账户第四部退出你的muse点开随机整一个伪家宽，我推荐的是安博vpn，在reddit看到的一个vpn，推荐使用他家的美区节点只有这个是伪家宽其他都是机场线路第四部：打开开",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:24:37.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "求教，国内还有什么安卓机是支持解锁BL的",
+   "link": "https://www.nodeseek.com/post-1062360-1",
+   "summary": "不想被监视，又没钱买苹果想刷机后使用",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:22:58.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "dedirock 的小鸡是不是把Udp封了",
+   "link": "https://www.nodeseek.com/post-1062359-1",
+   "summary": "所有udp端口都没法用",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:22:35.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【车找人】YouTube Premium，美区车找4人，年付100元",
+   "link": "https://www.nodeseek.com/post-1062358-1",
+   "summary": "如题。先上车后付款，你放心！你的账号需要符合：1.账号在美区，或自己转成美区；2.近一年内没有加入过别人的家庭组。先上车后付款，一个月内翻车退全款，一个月后翻车按比例退款。有意私聊或者tg联系。请务必提前确认自己的账号是否在美区，具体如何确认，请问谷歌或者GPT，谢谢谢谢！！！",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:22:29.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "【测试留档】RakSmart ISP",
+   "link": "https://www.nodeseek.com/post-1062357-1",
+   "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m198.247.*.*[0m[4mhttps://github.com/xykt/HardwareQuality",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:22:14.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "今天你坠机了吗",
+   "link": "https://www.nodeseek.com/post-1062356-1",
+   "summary": "不知道你们坠机没？反正我是坠机了。为啥啊",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:22:09.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
+   "title": "有人遇到过 家宽 UDP上传限速吗  能解决吗    上传TCP 40M  UDP只有3-5M了",
+   "link": "https://www.nodeseek.com/post-1062354-1",
+   "summary": "",
+   "category": "其他",
+   "source_key": "nodeseek",
+   "date": "2026-11-18T03:21:50.000Z",
+   "expires_at": null,
+   "first_seen": "2026-11-18T03:28:34.856Z",
+   "is_new": true
+  },
+  {
    "title": "给出一个新开的碳碳氩氩号不发邮件过agy的方法",
    "link": "https://linux.do/t/topic/3193970",
    "summary": "",
@@ -61,7 +644,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "gemini 20x youtube无法使用不可订阅解决方案",
@@ -72,7 +655,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "领谷歌Gemini 20x一个月",
@@ -83,7 +666,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "想知道佬们，怎么狠狠瞪ultra，开了后，不知道干什么",
@@ -94,7 +677,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "统计一波这次咕咕嘎嘎20x bug账号情况",
@@ -105,10 +688,10 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
-   "title": "谷歌 Gemini 20X 一键直开",
+   "title": "0元一年 Gemini 20X 直开",
    "link": "https://linux.do/t/topic/3193466",
    "summary": "",
    "category": "其他",
@@ -116,7 +699,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "八达通奖励到账了",
@@ -127,117 +710,7 @@
    "date": null,
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "免费试用Canva可画高级版45天",
-   "link": "https://linux.do/t/topic/3193276",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "免费一级域名一年",
-   "link": "https://linux.do/t/topic/3193251",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【富可敌国】【流光AI】11/17｜混元 Hy4 Flash 上新，留 ID 送 3 元",
-   "link": "https://linux.do/t/topic/3193089",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "致苦于微信提现的佬一个小妙招，已亲测有效",
-   "link": "https://linux.do/t/topic/3192964",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "0元购google ultra",
-   "link": "https://linux.do/t/topic/3192941",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "Google给Scientist送了6个月Antigravity Ultra",
-   "link": "https://linux.do/t/topic/3192752",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "gemini 0元试用ultra",
-   "link": "https://linux.do/t/topic/3192700",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【哔哩公益站】（试运行）快来挖哔哩的矿，总1亿token",
-   "link": "https://linux.do/t/topic/3192214",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "[macmini.ca] 加拿大 Mac mini 托管与租赁",
-   "link": "https://www.v2ex.com/t/1257858#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T17:57:20.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "我女朋友开始卖微瑕茶具了！",
-   "link": "https://www.v2ex.com/t/1257810#reply2",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T12:55:44.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "教你如何多快好省来养大肥鱼",
@@ -248,7 +721,7 @@
    "date": "2026-11-17T12:38:34.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "Claude 过 门户 KYC 过不了 退钱 秒封退钱",
@@ -259,7 +732,7 @@
    "date": "2026-11-17T12:16:21.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "必看！如何查看你的 Claude 账户是否值得过 kyc",
@@ -270,7 +743,7 @@
    "date": "2026-11-17T11:26:21.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "[福利] 自己搭建的公益中转站，送免费体验额度，欢迎 V 友来测试",
@@ -281,18 +754,7 @@
    "date": "2026-11-17T11:06:42.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "一年一更，我家的赣南脐橙 2026 版上线了",
-   "link": "https://www.v2ex.com/t/1257699#reply29",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T06:42:00.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "稳定国模 0.1 欢迎来测",
@@ -303,7 +765,7 @@
    "date": "2026-11-17T06:24:05.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "我的 app，拿到 1000w 投资了",
@@ -314,40 +776,7 @@
    "date": "2026-11-17T04:36:28.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "[Genius-AI 中转]新老用户们来领电子鸡蛋了，评论区留邮箱，送$5 体验额度",
-   "link": "https://www.v2ex.com/t/1257605#reply44",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T02:01:25.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "熊市中就开个银河免 5 定投纳指或者红利低波 ETF 吧，股票也有免 5 的。",
-   "link": "https://www.v2ex.com/t/1257573#reply106",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T00:45:24.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "[台灣站長不跑路] 不擔心封號，高穩定 Claude 中轉，評論送 5 刀（也有 Grok、GPT）",
-   "link": "https://www.v2ex.com/t/1257569#reply206",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T00:26:01.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "在瑞典做 Mac mini 实体主机托管，家用 IP，有 Claude 企业账号，可以代付，开放少量意向名额",
@@ -358,7 +787,7 @@
    "date": "2026-11-16T17:03:40.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "不要太信任 ai，数据全没哭死",
@@ -369,238 +798,7 @@
    "date": "2026-11-16T11:05:03.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "[Zashmodel 中转站] 新用户免费领 0.75 美元（约 5 RMB）鸡蛋",
-   "link": "https://www.v2ex.com/t/1257367#reply31",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T03:23:10.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "生图还得是gpt啊2.6好用",
-   "link": "https://www.nodeseek.com/post-1061844-1",
-   "summary": "gpt-image-2.6-sunburst出来了官Key里有好用",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:36:26.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【出】25r 出个 bitsflow hkg 7 刀 / 年",
-   "link": "https://www.nodeseek.com/post-1061843-1",
-   "summary": "厂商&型号CPU/内存/硬盘带宽/流量续费信息剩余价值/到期时间测试报告价格HKG-Toy（Zone2）1C/512M/10G500M/400G£6.37GBP/年付·交易May02,2026¥25.77/May02,2026总价¥25.00push转移NQ：https://www.nodeseek.com",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:31:47.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "[Apple] App Store服务炸了，无法登录",
-   "link": "https://www.nodeseek.com/post-1061842-1",
-   "summary": "RT，我连续重复登录8次才登录上去。。。",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:29:05.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【NQ】OVH KS-1-B",
-   "link": "https://www.nodeseek.com/post-1061841-1",
-   "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m40.160.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:28:45.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "苹果线上服务大规模宕机",
-   "link": "https://www.nodeseek.com/post-1061840-1",
-   "summary": "苹果出现大范围线上服务异常，多个服务同时出现用户无法登录或正常使用的情况。根据Downdetector的数据，iCloud、AppleSupport、ApplePay和AppStore等服务的故障报告明显增加。苹果官方系统状态页面也确认部分服务出现问题。用户报告出现异常的服务包括：iCloud及iCloudMail",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:17:39.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "高市早苗今天到深圳吧",
-   "link": "https://www.nodeseek.com/post-1061839-1",
-   "summary": "有没有国服男枪",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:16:24.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "ChatGPT 最新模型 6.2-astra-max 、 6.2-sol-max 鹈鹕测试来了！",
-   "link": "https://www.nodeseek.com/post-1061838-1",
-   "summary": "6.2-astra-max（总Token1.44M输入:194.37K/输出:44.21K/缓存:1.20M总消费$1.0786）预览网址：https://6-2-astra-tihu.openmili.com6.2-sol-max（总Token591.83K输入:112.08K/输出:40.83K/缓存:438.",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:08:57.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "不吃压力，直接开ultra！",
-   "link": "https://www.nodeseek.com/post-1061837-1",
-   "summary": "已经在爽用agy了，能用1天都值了",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T20:06:11.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "溢价收一台 BreezeHost 的去年黑五 50 刀 AMD 盲盒",
-   "link": "https://www.nodeseek.com/post-1061836-1",
-   "summary": "溢价收一台BreezeHost的去年黑五50刀AMD盲盒要10G口得",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:55:16.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "30出云悠三网优化 cn2gia cmin2 9929三网双程优化 月付19.9",
-   "link": "https://www.nodeseek.com/post-1061835-1",
-   "summary": "400g双向，小口子50m，但是很稳，30收的，还30出，还有10天到期，总共36nq参考这个https://nodequality.com/r/glJL8xtBUfIUTegbH2ARl1TIAxB5zLPv",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:54:33.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "yt的ix是不是都下架了",
-   "link": "https://www.nodeseek.com/post-1061834-1",
-   "summary": "我看官网都没有了",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:50:58.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "GPT-6.2 Astra 和 sol 已实装",
-   "link": "https://www.nodeseek.com/post-1061832-1",
-   "summary": "Plus订阅的用户，分批推送中，所以没有新模型的plus用户也先别急(",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:45:55.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【NQ】OVH ks-le-6 GRA 29.99欧/m",
-   "link": "https://www.nodeseek.com/post-1061831-1",
-   "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m51.91.*.*[0m[4mhttps://github.com/xykt/HardwareQuality[0",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:45:24.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "NQ TY云US美国一 80M",
-   "link": "https://www.nodeseek.com/post-1061830-1",
-   "summary": "💻基本信息++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++[1m硬件质量体检报告：[36m212.189.*.*[0m[4mhttps://github.com/xykt/HardwareQuality",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:44:10.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "ty云US 80M的口子跑了个NQ直接限速到5M了",
-   "link": "https://www.nodeseek.com/post-1061829-1",
-   "summary": "",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:41:55.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "抽个奖吧, 一个月CommandGo订阅",
-   "link": "https://www.nodeseek.com/post-1061828-1",
-   "summary": "忘了取消订阅出账单了,就抽了吧,Oauth交付不是ApiKey,要ApiKey的可以不用来了,大概可以跑10刀DeepSeekv4Flash,貌似是可以反代用的开奖链接",
-   "category": "会员订阅",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:41:18.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "1200收 adspower指纹浏览器*20个环境账户",
-   "link": "https://www.nodeseek.com/post-1061827-1",
-   "summary": "",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:40:40.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "【再收一台】收台2.99 / 3.99 的Raksmart cn2 LA",
-   "link": "https://www.nodeseek.com/post-1061826-1",
-   "summary": "RT下午一点左右回，着急的可以tg@sotyoyo最好不带双isp的那个出我。少许溢价可。",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:40:25.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "muse好像加强了风控力度，注册不好整了",
-   "link": "https://www.nodeseek.com/post-1061824-1",
-   "summary": "😆😆我要失业了",
-   "category": "其他",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:37:40.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "新手要想用claude，怎么订阅？需要准备什么？",
-   "link": "https://www.nodeseek.com/post-1061822-1",
-   "summary": "官方的，",
-   "category": "会员订阅",
-   "source_key": "nodeseek",
-   "date": "2026-11-17T19:32:01.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
+   "is_new": false
   },
   {
    "title": "ALTRun – 不到 1 MB，接替老牌同名开源启动器，支持拼音首字母、Everything 搜索、Listary 模式、剪贴板历史等",
@@ -611,105 +809,6 @@
    "date": "2026-11-17T13:19:48.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T20:40:31.124Z",
-   "is_new": true
-  },
-  {
-   "title": "移动app灵犀送6元话费",
-   "link": "https://linux.do/t/topic/3191685",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "qoder国际版SOTA积分领取",
-   "link": "https://linux.do/t/topic/3191341",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "免费发放100000张！苏州NFC交通卡可领5折叠加券",
-   "link": "https://linux.do/t/topic/3191226",
-   "summary": "",
-   "category": "低价优惠",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "三水公益站(试运行) deepseek-4.1-flash狂欢 11.16(补邀请码)",
-   "link": "https://linux.do/t/topic/3191039",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "建行北京分行，xyk。可以领6次，6元微信立减金",
-   "link": "https://linux.do/t/topic/3189725",
-   "summary": "",
-   "category": "低价优惠",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "杀疯了！满血GPT低至0.06倍率，缓存90%+，ClaudeCode / Codex稳定通道，新人送6刀额度！",
-   "link": "https://linux.do/t/topic/3189419",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "移动羊毛福利",
-   "link": "https://linux.do/t/topic/3189026",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "华为云开发者积分佬们记得花",
-   "link": "https://linux.do/t/topic/3188869",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "【RelayRouter】腾讯 hy4-flash 首发接入｜1M 上下文｜新人留 ID 领 ¥3.5",
-   "link": "https://linux.do/t/topic/3188671",
-   "summary": "",
-   "category": "其他",
-   "source_key": "linuxdo",
-   "date": null,
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
    "is_new": false
   },
   {
@@ -867,17 +966,6 @@
    "is_new": false
   },
   {
-   "title": "ChatGPT Plus 充值，125",
-   "link": "https://www.v2ex.com/t/1257590#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-17T01:34:18.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
    "title": "🎁 ChatGPT Plus/Pro 充到自己账号 长期稳定",
    "link": "https://www.v2ex.com/t/1257572#reply0",
    "summary": "",
@@ -928,17 +1016,6 @@
    "category": "免费白嫖",
    "source_key": "v2ex",
    "date": "2026-11-16T08:23:20.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T10:25:57.368Z",
-   "is_new": false
-  },
-  {
-   "title": "国模 0.16x 倍率｜新用户送¥2 体验额度｜订阅服务上线（¥25/30 天获得¥180 总额度，还有其他订阅套餐）",
-   "link": "https://www.v2ex.com/t/1257424#reply2",
-   "summary": "",
-   "category": "会员订阅",
-   "source_key": "v2ex",
-   "date": "2026-11-16T07:16:22.000Z",
    "expires_at": null,
    "first_seen": "2026-11-17T10:25:57.368Z",
    "is_new": false
@@ -1054,17 +1131,6 @@
    "is_new": false
   },
   {
-   "title": "V2EX 的帖子真的发生了翻天覆地的变化",
-   "link": "https://www.v2ex.com/t/1257385#reply29",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T04:39:28.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-17T00:04:55.621Z",
-   "is_new": false
-  },
-  {
    "title": "Civon 图片编辑页：多张参考图该怎样说明各自用途？",
    "link": "https://www.v2ex.com/t/1257510#reply0",
    "summary": "",
@@ -1142,50 +1208,6 @@
    "is_new": false
   },
   {
-   "title": "写了个把「资料」变成「整门课」的系统，今天开源了",
-   "link": "https://www.v2ex.com/t/1257427#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T07:25:39.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-16T15:19:57.074Z",
-   "is_new": false
-  },
-  {
-   "title": "周一福利🎁原生美国住宅 IP 免费领 195+国家可选",
-   "link": "https://www.v2ex.com/t/1257422#reply1",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T07:12:27.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-16T15:19:57.074Z",
-   "is_new": false
-  },
-  {
-   "title": "GPT 强制 ultrafast 0.03 倍率 GPT 高缓不降智 0.09 倍率 fable5.2 特惠 0.45 倍率 DS0.09 倍率 宝藏中转站欢迎来蹬",
-   "link": "https://www.v2ex.com/t/1257404#reply1",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T06:01:58.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-16T15:19:57.074Z",
-   "is_new": false
-  },
-  {
-   "title": "做了一个 AI GIF Maker，分享给大家体验一下",
-   "link": "https://www.v2ex.com/t/1257399#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T05:49:57.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-16T15:19:57.074Z",
-   "is_new": false
-  },
-  {
    "title": "比 IDM 快 5 倍的平替？免费开源下载器 MDM (支持 BT 磁力/视频嗅探/跨平台Mac)",
    "link": "https://www.iplaysoft.com/mdm.html",
    "summary": "相信 IDM 在下载软件的地位上已经无需多言了，很多人都用上七八年了。但它有三个大缺点：要付费、不支持 BT 或磁力链接、只有 Windows 版。像咱 Mac 和 Linux 用户根本没得选。 Mister Download Manager (简称 MDM ) 下载 管理器，完全打破了这僵局。首次打开它，大概率会以为就是 IDM ！界面布局一模一样，功能几乎全覆盖，甚至下载速度更快、性能更强！但",
@@ -1194,17 +1216,6 @@
    "date": "2026-11-16T09:45:08.000Z",
    "expires_at": null,
    "first_seen": "2026-11-16T15:19:57.074Z",
-   "is_new": false
-  },
-  {
-   "title": "cheapai.info 限时活动：每日消耗返还 5%~12%",
-   "link": "https://www.v2ex.com/t/1257357#reply0",
-   "summary": "",
-   "category": "其他",
-   "source_key": "v2ex",
-   "date": "2026-11-16T03:04:07.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-16T05:43:26.024Z",
    "is_new": false
   },
   {
@@ -1326,17 +1337,6 @@
    "date": "2026-11-12T21:17:48.000Z",
    "expires_at": null,
    "first_seen": "2026-11-12T21:22:28.290Z",
-   "is_new": false
-  },
-  {
-   "title": "双 11 打折好价整理！全网视频 VIP / 网盘会员 / 软件打折都在这了…",
-   "link": "https://www.iplaysoft.com/1111.html",
-   "summary": "又是一年一度「 双十一大促 」了！无论是京东、天猫，还是「 腾讯云 、 阿里云 」等商家都会发力，这对买买党来说肯定特别幸福了。不过对于咱们而言，软件、 游戏 的促销同样值得关注！ 异次元特意收集了最近 双 11 精选软件/会员 等促销活动， 力度诚意都不错。包括 百度网盘 、 哔哩哔哩 、 WPS会员 、 腾讯视频 、 爱奇艺 、 网易云 ；还有正版软件打折比如 数码荔枝 、 ApsGo软购 等",
-   "category": "会员订阅",
-   "source_key": "iplaysoft",
-   "date": "2026-11-10T21:00:48.000Z",
-   "expires_at": null,
-   "first_seen": "2026-11-12T03:29:50.618Z",
    "is_new": false
   }
  ]
